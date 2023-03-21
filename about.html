@@ -11,9 +11,25 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Poppins:wght@500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/styles.css">
-    <title>Document</title>
+    <meta name="description" content="About Patricia. Patricia Pereira she is a front-end engineer based in Portugal.">
+    <title>About Patricia - Patricia Pereira</title>
 </head>
 <body>
+    <div class="container">
+        <nav class = "d-flex justify-content-between">
+            <a href="/" title="Homepage">
+            <img src="./images/logo.png" alt="Patricia logo" class = "logo d-none d-md-block">
+            <img src="./images/logo-sm.jpg" alt="Patricia logo" class = "logo d-block d-md-none">
+        </a>
+            <ul>
+                <li> <a href="/" title="Homepage">Home</a> </li>
+                <li class = "active"> <a href="/about.html" title="About Patricia">About</a> </li>
+                <li> <a href="/work.html" title="Patricia's work">Work</a> </li>
+                <li> <a href="/contact.html" title="Contact Patricia">Contact</a> </li>
+            </ul>
+      
+        </nav>
+    </div>
     <div class = "content-container container">
         
         <div class = "row">
@@ -22,12 +38,35 @@
     <h1 class = "mb-4">Hi I am Patricia Pereira</h1>
     <h2 class = "mb-4">Frontend Developer, based in Portugal.</h2>
     <p class = "mb-5">For anyone who wants to start learning code, this workshop is very interesting. You will be challenged  with different exercises, and everything is well explained, homework and deadlines are good for keep focus</p>
-    <a href="#" class = "btn btn-branding">View all project</a>
+    <a href="/work.html" class = "btn btn-branding" title="View all project">View all project</a>
 </div>
 </div>
 <div class = "col-lg-6">
     <img src="./images/patricia.png" alt="Patricia photo" class = "img-fluid">
 </div>
 </div>
+<footer>
+    <div class="contact-box d-flex justify-content-between mb-5 d-none d-md-flex">
+        <div>
+        <h3>Work Inquiry</h3>
+        <p class = "text-muted">Let’s work  together and i’ll help you by all my best</p>
+    </div>
+    <div>
+        <a href="/contact.html" title="Contact Patricia" class = "btn btn-branding mt-3">Let’s talk here</a>
+    </div>
+    </div>
+    <div class="d-flex justify-content-center mb-5">
+        <a href="mailto:patricia@gmail.com" class = "email-link" title="Email Patricia">patricia@gmail.com</a>
+    </div>
+    <div class="social-links d-flex justify-content-center">
+        <a href="https://wwww.instagram.com/patricia" target="_blank" title="Instagram Profile"><i class="fa-brands fa-instagram"></i></a>
+        <a href="https://wwww.github.com/patricia" target="_blank" title="GitHub Profile"><i class="fa-brands fa-github"></i></a>
+        <a href="https://wwww.facebook.com/patricia" target="_blank" title="Facebook Profile"><i class="fa-brands fa-facebook"></i></a>   
+    </div>
+    <p class="text-center mt-5">✌ This project was coded SheCodes, and it is <a href="https://github.com/farfalina1908/SheCodes-Portfolio-Project" target="_blank">
+        open-source</a>
+    
+    </p>
+</footer>
 </div>
 </body>
